@@ -12,7 +12,7 @@ const compatibleRequire = (path) => {
     let targetModule = null;
 
     // babel和ts编译均会带上__esModule标志位
-    if (true === requiredModule.__esModule) {
+    if (true === requiredModule.__esModule && requiredModule.default != void(0)) {
         targetModule = requiredModule.default;
     } else {
         targetModule = requiredModule;

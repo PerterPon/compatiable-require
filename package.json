@@ -1,6 +1,6 @@
 {
   "name": "compatible-require",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "an compatible require used for CommonJs.",
   "main": "src/index.js",
   "scripts": {
