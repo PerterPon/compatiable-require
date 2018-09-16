@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/Cellar/node/10.10.0/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add compatible-require
+
+PATH: 
+  /Users/pon/bin:/usr/local/bin:/Users/pon/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/VMware Fusion.app/Contents/Public:/Users/pon/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/byted-gulu: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:137468:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:138440:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "compatible-require",
+    "version": "1.0.0",
+    "description": "an compatible require used for CommonJs.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PerterPon/compatiable-require.git"
+    },
+    "keywords": [
+      "commonjs",
+      "es6"
+    ],
+    "author": "PerterPon<PerterPon@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/PerterPon/compatiable-require/issues"
+    },
+    "homepage": "https://github.com/PerterPon/compatiable-require#readme",
+    "dependencies": {
+      "byted-gulu": "^1.0.26",
+      "compatible-require": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

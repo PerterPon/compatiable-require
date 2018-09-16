@@ -1,0 +1,27 @@
+{
+  "name": "compatible-require",
+  "version": "1.0.1",
+  "description": "an compatible require used for CommonJs.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerterPon/compatiable-require.git"
+  },
+  "keywords": [
+    "commonjs",
+    "es6"
+  ],
+  "author": "PerterPon<PerterPon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PerterPon/compatiable-require/issues"
+  },
+  "homepage": "https://github.com/PerterPon/compatiable-require#readme",
+  "dependencies": {
+    "byted-gulu": "^1.0.26",
+    "compatible-require": "^1.0.0"
+  }
+}
