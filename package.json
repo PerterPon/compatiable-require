@@ -1,6 +1,6 @@
 {
   "name": "compatible-require",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "an compatible require used for CommonJs.",
   "main": "src/index.js",
   "scripts": {
@@ -19,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/PerterPon/compatiable-require/issues"
   },
-  "homepage": "https://github.com/PerterPon/compatiable-require#readme",
-  "dependencies": {
-    "byted-gulu": "^1.0.26",
-    "compatible-require": "^1.0.0"
-  }
+  "homepage": "https://github.com/PerterPon/compatiable-require#readme"
 }
